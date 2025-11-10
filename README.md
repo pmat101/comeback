@@ -88,7 +88,7 @@ background-color: var(--var1, fallback)
 
 33. [Card exercise](./card.html)
 
-34. Float & Clear
+~~34. Float & Clear~~
 
 35. More CSS selectors: attribute selector, ::before, ::after, ::selection (add pseudo element dynamically)
 
@@ -96,14 +96,81 @@ background-color: var(--var1, fallback)
 
 37.
 
-38. #### FlexBox
+38. **FlexBox**
 
     - Container -> display: flex; justify-content; align-items; decided by _flex-direction_; flex-wrap; align-content;
     - Items -> order; flex-grow; flex-shrink; align-self;
 
-39. #### Grid
-    - Container -> display: grid; grid-template-columns; grid-template-rows;
-    - Items -> grid-row; grid-column;
+39. **Grid**
+
+    - Container -> display: grid; grid-template-columns; grid-template-rows; grid-template-areas; gap; justify-items; align-items;
+    - Items -> grid-row; grid-column; grid-area;
+
+40. [Layout](./layout.html)
+
+41.
+
+~~42. CSS Transforms~~
+
+~~43. [NavBar](./css-nav.html)~~
+
+44.
+
+~~45. CSS Transitions~~
+
+~~46. CSS Animations~~
+
+47.
+
+48.
+
+~~49. object-fit: cover/ contain/ fill; object-position: top right; background-image: url(""); background-position: center center; background-repeat: no-repeat;~~
+
+~~50. filter: blur(10px) / brightness(122%) / greyscale(100%) / invert(1);~~
+
+51.
+
+~~52. Figma~~
+
+~~53. Netflix clone~~
+
+---
+
+## JavaScript
+
+54. alert(), prompt(), confirm(), console.log()
+
+55. var, let, const, object
+
+56. Conditionals & Operators
+
+57. Loops: for, while, do-while, **for-in (loop through object keys), for-off (loop through strings/ arrays)**
+
+58. Arrow Functions are used to pass function as a variable or put it inside another function
+
+59.
+
+60. String methods (strings are immutable), Template Literals: `string $[] continue..`
+
+61.
+
+62.
+
+~~63. Arrays: - Array methods: join, push, pop, shift, unshift, toString, delete, concat (creates new array), sort, splice, slice, reverse - For-Each loop - Map: `arr.map((e) => {return e**2})` - Filter: - Reduce:~~
+
+64.
+
+65.
+
+66. DOM (Document Object Model) maps the entire document to an object
+
+67. Children, Parent & Sibling nodes
+
+68. Selecting by IDs, Classes, tagName, querySelector, querySelectorAll
+
+69.
+
+70.
 
 ---
 
