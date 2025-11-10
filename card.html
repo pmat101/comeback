@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #def;
+      }
+      .card {
+        width: 80vw;
+        height: 90vh;
+        border-radius: 5%;
+        background: #fff;
+        padding: 0.5em;
+        margin: 1em auto;
+      }
+      .img {
+        margin-bottom: 1em;
+      }
+      .img img {
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+      }
+      .btn {
+        border: 1px solid #aaa;
+        border-radius: 20%;
+        color: #aaa;
+        padding: 0.25em 0.5em;
+      }
+      .heading,
+      .para,
+      .more {
+        padding: 15px;
+      }
+      .heading {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .para {
+        color: #aaa;
+        font-weight: 600;
+      }
+      .more {
+        text-align: center;
+        margin-top: 2em;
+      }
+      #btn3 {
+        background: #ace;
+        color: #00f;
+        padding: 0.5em 1em;
+        border-radius: 1em;
+        cursor: pointer;
+        border: none;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="img">
+        <img src="./dal_charzan_holidays.webp" alt="Card Image" />
+      </div>
+      <span id="btn1" class="btn">Nature</span>
+      <span id="btn2" class="btn">Lake</span>
+      <div class="heading">Lago di Braies</div>
+      <div class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam magni
+        dignissimos suscipit, minima eius repudiandae harum. Dolorem, impedit!
+      </div>
+      <div class="more">
+        <span id="btn3" class="btn">Read More</span>
+      </div>
+    </div>
+  </body>
+</html>

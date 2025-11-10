@@ -73,6 +73,38 @@
 
 29.
 
+30. CSS Variables:
+    `:root {
+--var1: value;
+--var2: value;
+}
+// Global variables, local can be created too
+background-color: var(--var1, fallback)
+// Use`
+
+31. Media Query
+
+32.
+
+33. [Card exercise](./card.html)
+
+34. Float & Clear
+
+35. More CSS selectors: attribute selector, ::before, ::after, ::selection (add pseudo element dynamically)
+
+36.
+
+37.
+
+38. #### FlexBox
+
+    - Container -> display: flex; justify-content; align-items; decided by _flex-direction_; flex-wrap; align-content;
+    - Items -> order; flex-grow; flex-shrink; align-self;
+
+39. #### Grid
+    - Container -> display: grid; grid-template-columns; grid-template-rows;
+    - Items -> grid-row; grid-column;
+
 ---
 
 <!--
