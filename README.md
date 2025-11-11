@@ -1,5 +1,9 @@
 # COMEBACK
 
+<!-- Check Harry's notes for each topic: Digital & Hand Written -->
+
+---
+
 ## HTML
 
 1. > Server (Backend + Database) -> Browser (HTML + CSS + JS) -> Client (request <-> response)
@@ -150,7 +154,7 @@ background-color: var(--var1, fallback)
 
 59.
 
-60. String methods (strings are immutable), Template Literals: `string $[] continue..`
+60. String methods (strings are immutable), Template Literals: \`string $[] continue..\`
 
 61.
 
@@ -171,6 +175,35 @@ background-color: var(--var1, fallback)
 69.
 
 70.
+
+71. innerText, innerHTML, tagName, nodeName (includes everything- comments etc), hidden = true, getAttribute, setAttribute, add, remove, toggle
+
+72.
+
+73.
+
+74. addEventListener, Event Bubbling: If a child is clicked, parent is clicked by default, to stop that use e.stopPropagation(). setTimeOut, setInterval, clearTimeOut, clearInterval
+
+~~75. Advanced Concepts: - JavaScript's core execution is synchronous but when it encounters an asynchronous operation (eg. setTimeout, fetch requests, DOM events), it doesn't wait for it to complete. - **Callback** function is one where a function is passed as an argument instead of the usual variable. - Nested callbacks can easily become complex and hard to maintain and lead to _CallBack Hell!_ - **Promise** is a solution to CallBack Hell. A Promise has 3 parts- _resolve_, _reject_ and _then_, apart from these we also need to
+_catch_ for errors. _finally_ is used for cleanup - Promises can be chained using then keyword - Promise.all([prom1, prom2]) can be used to run multiple promises~~
+
+~~76. **Await** is used to wait for an **Async** function to run instead of carrying out pending functions. Await function can be inside Async function~~
+
+77.
+
+~~78.~~
+
+~~79. Try-Catch and error handeling~~
+
+~~80. OOP~~
+
+81.
+
+~~82. Destructuring, Spread Operator, IIFE, Hosting~~
+
+83.
+
+84.
 
 ---
 
